@@ -63,9 +63,6 @@ botaodd.addEventListener("click",function (event) {
 
     var tabela = document.querySelector("#tabela-pacientes");
     tabela.appendChild(pacienteTr);
-
-
-
-
+    alert("Um novo cliente foi adicionado ")
     console.log("clicado");
 });
