@@ -50,7 +50,7 @@ function obtemPacienteDoFormulario(form) {
 
 function montaTr(paciente) {
     var pacienteTr = document.createElement("tr");
-    pacienteTr.classList.add("paciente","fadeOut");
+    pacienteTr.classList.add("paciente");
 
     pacienteTr.appendChild(montaTd(paciente.nome, "info-nome"));
     pacienteTr.appendChild(montaTd(paciente.peso, "info-peso"));
